@@ -26,10 +26,7 @@ int main (){
    float pib2 = 300500000000.00;
 
    
-   
-
-
-    printf ("***** Super Trunfo de cidades *****\n\n\n");
+   printf ("***** Super Trunfo de cidades *****\n\n\n");
 
 
    //Cálculos para carta 1
@@ -42,31 +39,22 @@ int main (){
 
 
 
-   int habitantes1 = 12325000;
-   int habitantes2 = 6748000
-
-
+   printf("Comparaçao de cartas (Atributo: Populacao):\n\n");
 
    if (habitantes1 > habitantes2) {
-   printf("Comparação de cartas (habitantes1):\n\n");
-   printf("Carta1 s%: %d\n", São Paulo, habitantes1);
-   printf("Carta2 s%: %d\n", Rio de Janeiro, habitantes2);
-   printf("Resultado: \n carta1 venceu (São Paulo)!\n");
-   
-   } else if {
-   (habitantes1 > habitantes2)
-   printf("Comparação de cartas (habitantes2):\n\n");
-   printf("Carta 1 s%: %d\n", São Paulo, habitantes1);
-   printf("Carta 2 s%: %d\n", Rio de Janeiro, habitantes2);
-   printf("Resultado: \n carta2 venceu (Rio de Janeiro)!\n");
-
+      printf("Carta 1 - %s: %d\n", nome_da_cidade1, habitantes1);
+      printf("Carta 2 - %s: %d\n", nome_da_cidade2, habitantes2);
+      printf("Resultado: Carta1 (%s) venceu!\n", nome_da_cidade1);
+ } else if (habitantes2 > habitantes1) {
+      printf("Carta 1 - %s: %d\n", nome_da_cidade1, habitantes1);
+      printf("Carta 2 - %s: %d\n", nome_da_cidade2, habitantes2);
+      printf("Resultado: carta2 (%s) venceu!\n", nome_da_cidade2);
 } else { 
-   printf("Comparação de cartas (habitantes1):\n\n");
-   printf("Carta1 s%: %d\n", São Paulo, habitantes1);
-   printf("Carta2 s%: %d\n", Rio de Janeiro, habitantes2);
-   printf("Resultado: Empate!\n");
+      printf("Carta 1 - %s: %d\n", nome_da_cidade1, habitantes1);
+      printf("Carta 2 - %s: %d\n", nome_da_cidade2, habitantes2);
+      printf("Resultado: Empate!\n");
 
-
+   }
     printf ("\n\n");
     printf ("--- Fim do jogo! ---\n\n\n");
 
